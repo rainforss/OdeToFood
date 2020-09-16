@@ -19,6 +19,8 @@ namespace OdeToFood.Data
 
         int Commit();
 
+        int GetCountOfRestaurants();
+
         Restaurant GetRestaurantById(int id);
     }
 }
